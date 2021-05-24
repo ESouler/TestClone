@@ -1,0 +1,28 @@
+# !/bin/bash
+echo "please enter two numbers"
+read a
+read b
+
+echo "please choose an operation"
+echo "1.add"
+echo "2.subtract"
+echo "3.divide"
+echo "4.multiply"
+read i
+
+if [ $i = "1" ]
+   then
+      echo $((a+b))
+elif [ $i = "2" ]
+   then
+      echo $((a-b))
+elif [ $i = "3" ]
+   then
+      echo $((a/b))
+elif [ $i = "4" ]
+   then
+       echo $((a*b))
+fi
+exit
+
+
