@@ -1,8 +1,9 @@
-print('simple calc')
+print('This is a basic stupid calculator\nWrite numbers')
 a = int(input())
 b = int(input())
+
 def function(a,b):
-    print('choose what calc you want')
+    print('choose what action do you want')
     print('1 add')
     print('2 multiply')
     print('3 divide')
@@ -14,8 +15,9 @@ def function(a,b):
         return a * b
     elif c == 3:
         return a/b
-    else:
+    elif c == 4:
         return a - b
-
+    else:
+        print('No action')
 
 print(function(a,b))
