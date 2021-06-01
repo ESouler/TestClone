@@ -4,3 +4,4 @@ vers3
 vers4
 vers4.1 of file1
 vers5
+vers6
