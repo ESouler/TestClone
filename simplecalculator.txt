@@ -6,10 +6,10 @@ read a
 read c
 
 echo "Please choose an operation"
-echo "Add"
-echo "Subtract"
-echo "Divide"
-echo "Multiply"
+echo "1.Add"
+echo "2.Subtract"
+echo "3.Divide"
+echo "4.Multiply"
 
 read b
 
@@ -24,7 +24,7 @@ elif [ $num = "3" ]
       echo $((a/c))
 elif [ $num = "4" ]
    then
-       echo $((a*b))
+       echo $((a*c))
 fi
 exit
 
