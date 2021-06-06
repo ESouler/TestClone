@@ -6,4 +6,5 @@ vers4.1 of file1
 vers5
 vers6
 vers7 from github
-vers8 from local
+vers8 from local!
+test conflicts
